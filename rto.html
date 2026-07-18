@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTO Rules & Road Signs | KSRTC Central Training Institute - Government of Karnataka</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Government Bar -->
+    <div class="gov-top-bar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="bi bi-flag-fill text-accent me-1"></i> Government of Karnataka</span>
+                <span class="d-none d-md-inline border-start border-secondary-subtle ps-3">ಕರ್ನಾಟಕ ಸರ್ಕಾರ</span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <a href="https://karnataka.gov.in" target="_blank"><i class="bi bi-globe me-1"></i> State Portal</a>
+                <a href="https://ksrtc.karnataka.gov.in" target="_blank"><i class="bi bi-bus-front me-1"></i> KSRTC
+                    Portal</a>
+                <span class="d-none d-sm-inline">|</span>
+                <a href="javascript:void(0);" onclick="translatePage('en')"
+                    class="text-accent fw-bold text-decoration-none me-1">English</a>
+                <a href="javascript:void(0);" onclick="translatePage('kn')"
+                    class="text-white fw-bold text-decoration-none"
+                    style="font-family: 'Noto Sans Kannada', sans-serif;">ಕನ್ನಡ</a>
+                <div id="translate-desktop-container">
+                    <div id="google_translate_element"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="header-main">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <a class="logo-container" href="index.html">
+                    <img src="assets/ksrtc_logo.png" alt="KSRTC Logo" width="55" height="55">
+                    <div class="logo-text">
+                        <span class="logo-title-en">KSRTC TRAINING</span>
+                        <span class="logo-title-kn">ಕೇಂದ್ರ ತರಬೇತಿ ಸಂಸ್ಥೆ</span>
+                        <span class="logo-subtitle">Central Training Institute • Govt of Karnataka</span>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+                    <ul class="navbar-nav align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="rto.html">RTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="student.html">Student</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <!-- Translate Section for Mobile -->
+                        <li class="nav-item d-lg-none mt-3 pt-3 border-top border-secondary-subtle">
+                            <div class="mobile-translate-box p-3 rounded shadow-sm text-center"
+                                style="background-color: rgba(15, 45, 89, 0.05); border: 1px solid rgba(15, 45, 89, 0.1);">
+                                <span class="small fw-bold text-primary d-block mb-2">
+                                    <i class="bi bi-translate me-1 text-danger"></i> SELECT LANGUAGE / ಭಾಷೆಯನ್ನು
+                                    ಆಯ್ಕೆಮಾಡಿ
+                                </span>
+                                <div class="d-flex justify-content-center gap-3">
+                                    <a href="javascript:void(0);" onclick="translatePage('en')"
+                                        class="btn btn-sm btn-outline-primary fw-bold">English</a>
+                                    <a href="javascript:void(0);" onclick="translatePage('kn')"
+                                        class="btn btn-sm btn-primary fw-bold"
+                                        style="font-family: 'Noto Sans Kannada', sans-serif;">ಕನ್ನಡ</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header Hero -->
+    <section class="py-5 text-white"
+        style="background: linear-gradient(135deg, #0F2D59 0%, #071933 100%); border-bottom: 4px solid #FFC107;">
+        <div class="container py-4 text-center">
+            <h1 class="text-white display-5 fw-bold mb-2">RTO Signals, Signs & Rules</h1>
+            <p class="lead text-white-50">Master essential road indicators, safety signs, and driving regulations as
+                mandated by the Transport Department.</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-accent text-decoration-none">Home</a>
+                    </li>
+                    <li class="breadcrumb-item text-white-50 active" aria-current="page">RTO Signs</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Traffic Signals & Signs Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-danger text-uppercase px-3 py-2 mb-2 fw-bold">SAFETY REFERENCE</span>
+                <h2 class="text-primary fw-bold">RTO Traffic Signs & Signals</h2>
+                <p class="text-muted max-w-600 mx-auto">Standardised road signals defined by the Indian Road Congress
+                    (IRC) to ensure safe traffic flow and avoid collisions.</p>
+            </div>
+
+            <!-- 1. Traffic Light Signals -->
+            <h4 class="text-primary mb-4 border-bottom pb-2"><i class="bi bi-traffic-light me-2"></i>Traffic Light
+                Signals</h4>
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded shadow-sm text-center border-start border-danger border-4">
+                        <div class="d-inline-flex justify-content-center align-items-center bg-danger text-white rounded-circle mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="bi bi-slash-circle-fill fs-3"></i>
+                        </div>
+                        <h5 class="fw-bold text-danger">RED SIGNAL</h5>
+                        <p class="small text-muted mb-0"><strong>Stop completely.</strong> You must stop before the stop
+                            line or zebra crossing. Never cross or jump a red signal.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded shadow-sm text-center border-start border-warning border-4">
+                        <div class="d-inline-flex justify-content-center align-items-center bg-warning text-dark rounded-circle mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="bi bi-exclamation-triangle-fill fs-3"></i>
+                        </div>
+                        <h5 class="fw-bold text-warning">AMBER / YELLOW</h5>
+                        <p class="small text-muted mb-0"><strong>Clear intersection.</strong> Stop if you can do so
+                            safely. If you have already crossed the line, proceed with caution.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded shadow-sm text-center border-start border-success border-4">
+                        <div class="d-inline-flex justify-content-center align-items-center bg-success text-white rounded-circle mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="bi bi-check-circle-fill fs-3"></i>
+                        </div>
+                        <h5 class="fw-bold text-success">GREEN SIGNAL</h5>
+                        <p class="small text-muted mb-0"><strong>Go ahead.</strong> Proceed straight or turn left/right
+                            if the lane is clear. Remain vigilant for pedestrian traffic.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Mandatory / Regulatory Signs -->
+            <h4 class="text-primary mb-4 border-bottom pb-2"><i class="bi bi-exclamation-octagon me-2"></i>Mandatory /
+                Regulatory Signs</h4>
+            <div class="row g-4 row-cols-2 row-cols-md-4 mb-5">
+
+                <!-- Sign 1: STOP -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="30,5 70,5 95,30 95,70 70,95 30,95 5,70 5,30" fill="#D32F2F"
+                                stroke="#FFFFFF" stroke-width="3" />
+                            <text x="50" y="58" font-family="Arial, Helvetica, sans-serif" font-size="20"
+                                font-weight="bold" fill="#FFFFFF" text-anchor="middle">STOP</text>
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">STOP Sign</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Driver must halt before
+                                proceeding.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 2: NO ENTRY -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <circle cx="50" cy="50" r="45" fill="#D32F2F" stroke="#FFFFFF" stroke-width="3" />
+                            <rect x="15" y="42" width="70" height="16" rx="3" fill="#FFFFFF" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">NO ENTRY</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Entry strictly prohibited.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 3: SPEED LIMIT 50 -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <circle cx="50" cy="50" r="45" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8" />
+                            <text x="50" y="59" font-family="Arial, Helvetica, sans-serif" font-size="28"
+                                font-weight="bold" fill="#000000" text-anchor="middle">50</text>
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">SPEED LIMIT 50</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Max speed limit 50 km/h.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 4: HORN PROHIBITED -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <circle cx="50" cy="50" r="45" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8" />
+                            <path d="M25 45 H35 L45 35 V65 L35 55 H25 Z" fill="#000000" />
+                            <path d="M50 43 A8 8 0 0 1 50 57 M55 38 A16 16 0 0 1 55 62" stroke="#000000"
+                                stroke-width="3" fill="none" />
+                            <line x1="15" y1="15" x2="85" y2="85" stroke="#D32F2F" stroke-width="8" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">NO HONKING</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Silent zone; do not sound horn.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 5: GIVE WAY -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,95 5,15 95,15" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">GIVE WAY</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Yield right of way to other
+                                traffic.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 6: OVERTAKING PROHIBITED -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <circle cx="50" cy="50" r="45" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8" />
+                            <rect x="28" y="42" width="16" height="22" rx="3" fill="#000000" />
+                            <rect x="56" y="42" width="16" height="22" rx="3" fill="#D32F2F" />
+                            <line x1="15" y1="15" x2="85" y2="85" stroke="#D32F2F" stroke-width="8" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">NO OVERTAKING</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Overtaking is prohibited.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 7: NO RIGHT TURN -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <circle cx="50" cy="50" r="45" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8" />
+                            <path d="M35 65 V45 A10 10 0 0 1 45 35 H65" stroke="#000000" stroke-width="6" fill="none" />
+                            <polygon points="60,28 72,35 60,42" fill="#000000" />
+                            <line x1="15" y1="15" x2="85" y2="85" stroke="#D32F2F" stroke-width="8" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">NO RIGHT TURN</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Right turn is prohibited.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 8: NO PARKING -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <circle cx="50" cy="50" r="45" fill="#0F2D59" stroke="#D32F2F" stroke-width="8" />
+                            <line x1="18" y1="18" x2="82" y2="82" stroke="#D32F2F" stroke-width="8" />
+                            <text x="50" y="62" font-family="Arial, Helvetica, sans-serif" font-size="36"
+                                font-weight="bold" fill="#FFFFFF" text-anchor="middle">P</text>
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">NO PARKING</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Parking is prohibited here.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 3. Cautionary / Warning Signs -->
+            <h4 class="text-primary mb-4 border-bottom pb-2"><i class="bi bi-exclamation-triangle me-2"></i>Cautionary /
+                Warning Signs</h4>
+            <div class="row g-4 row-cols-2 row-cols-md-4 mb-5">
+
+                <!-- Sign 1: Zebra Crossing -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,5 95,85 5,85" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                            <line x1="25" y1="70" x2="75" y2="70" stroke="#000000" stroke-width="4" />
+                            <line x1="30" y1="75" x2="70" y2="75" stroke="#000000" stroke-width="4" />
+                            <circle cx="50" cy="35" r="5" fill="#000000" />
+                            <path d="M45 45 L50 40 L55 45 M50 40 V58 L42 68 M50 52 L58 68" stroke="#000000"
+                                stroke-width="4" fill="none" stroke-linecap="round" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Zebra Crossing</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Pedestrian crossing ahead.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 2: Narrow Bridge -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,5 95,85 5,85" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                            <path d="M35 75 V60 C35 55, 43 53, 43 45 V25 H57 V45 C57 53, 65 55, 65 60 V75"
+                                stroke="#000000" stroke-width="4" fill="none" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Narrow Bridge</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Road narrows over bridge.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 3: Right Curve -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,5 95,85 5,85" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                            <path d="M40 70 V50 A15 15 0 0 1 55 35 H65" stroke="#000000" stroke-width="6" fill="none"
+                                stroke-linecap="round" />
+                            <polygon points="60,28 72,35 60,42" fill="#000000" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Right Curve</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Curve turning right ahead.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 4: School Ahead -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,5 95,85 5,85" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                            <circle cx="43" cy="40" r="4" fill="#000000" />
+                            <path d="M38 52 V44 H48 V52" stroke="#000000" stroke-width="3" fill="none" />
+                            <circle cx="58" cy="47" r="3" fill="#000000" />
+                            <path d="M54 58 V50 H62 V58" stroke="#000000" stroke-width="2.5" fill="none" />
+                            <line x1="38" y1="52" x2="62" y2="58" stroke="#000000" stroke-width="2" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">School Ahead</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Slow down; children crossing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 5: Narrow Road Ahead -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,5 95,85 5,85" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                            <path d="M35 70 V55 C35 50, 43 48, 43 45 V30 M65 70 V55 C65 50, 57 48, 57 45 V30"
+                                stroke="#000000" stroke-width="4" fill="none" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Narrow Road</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Road narrows ahead.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 6: Roundabout Ahead -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,5 95,85 5,85" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                            <path d="M45 42 A8 8 0 1 1 55 58" stroke="#000000" stroke-width="3" fill="none" />
+                            <path d="M55 58 A8 8 0 1 1 45 42" stroke="#000000" stroke-width="3" fill="none" />
+                            <polygon points="55,34 50,42 60,42" fill="#000000" />
+                            <polygon points="45,66 50,58 40,58" fill="#000000" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Roundabout</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Rotary island junction ahead.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 7: Slippery Road -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,5 95,85 5,85" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                            <path d="M42 55 C48 55, 48 65, 54 65 C60 65, 60 55, 66 55" stroke="#000000" stroke-width="3"
+                                fill="none" />
+                            <path d="M36 62 C42 62, 42 72, 48 72 C54 72, 54 62, 60 62" stroke="#000000" stroke-width="3"
+                                fill="none" />
+                            <rect x="42" y="42" width="16" height="10" fill="#000000" />
+                            <circle cx="45" cy="52" r="3" fill="#000000" />
+                            <circle cx="55" cy="52" r="3" fill="#000000" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Slippery Road</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Drive slow; skidding hazard.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 8: Men at Work -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <polygon points="50,5 95,85 5,85" fill="#FFFFFF" stroke="#D32F2F" stroke-width="8"
+                                stroke-linejoin="round" />
+                            <circle cx="45" cy="40" r="4" fill="#000000" />
+                            <path d="M37 68 L45 50 L52 56 L62 50" stroke="#000000" stroke-width="3" fill="none" />
+                            <path d="M45 50 V60 L50 72" stroke="#000000" stroke-width="3" fill="none" />
+                            <line x1="52" y1="56" x2="65" y2="68" stroke="#000000" stroke-width="3" />
+                            <rect x="63" y="65" width="6" height="8" fill="#000000" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Men at Work</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Road repairs ahead.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 4. Informatory Signs -->
+            <h4 class="text-primary mb-4 border-bottom pb-2"><i class="bi bi-info-circle me-2"></i>Informatory Signs
+            </h4>
+            <div class="row g-4 row-cols-2 row-cols-md-4 mb-5">
+
+                <!-- Sign 1: Parking Area -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <rect x="5" y="5" width="90" height="90" rx="8" fill="#0F2D59" stroke="#FFFFFF"
+                                stroke-width="3" />
+                            <text x="50" y="66" font-family="Arial, Helvetica, sans-serif" font-size="54"
+                                font-weight="bold" fill="#FFFFFF" text-anchor="middle">P</text>
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Parking Area</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Designated parking zone.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 2: Hospital -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <rect x="5" y="5" width="90" height="90" rx="8" fill="#0F2D59" stroke="#FFFFFF"
+                                stroke-width="3" />
+                            <rect x="25" y="25" width="50" height="50" fill="#FFFFFF" />
+                            <rect x="43" y="30" width="14" height="40" fill="#D32F2F" />
+                            <rect x="30" y="43" width="40" height="14" fill="#D32F2F" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Hospital</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Medical facilities nearby.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 3: Petrol Pump -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <rect x="5" y="5" width="90" height="90" rx="8" fill="#0F2D59" stroke="#FFFFFF"
+                                stroke-width="3" />
+                            <rect x="30" y="25" width="28" height="48" rx="2" fill="#FFFFFF" />
+                            <rect x="34" y="30" width="20" height="15" fill="#000000" />
+                            <path d="M58 40 H64 V65 H58 Z M64 45 A5 5 0 0 1 70 50 V60" stroke="#FFFFFF" stroke-width="3"
+                                fill="none" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Petrol Pump</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Fuel station ahead.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 4: First Aid Post -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <rect x="5" y="5" width="90" height="90" rx="8" fill="#0F2D59" stroke="#FFFFFF"
+                                stroke-width="3" />
+                            <rect x="45" y="25" width="10" height="50" fill="#FFFFFF" />
+                            <rect x="25" y="45" width="50" height="10" fill="#FFFFFF" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">First Aid Post</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Emergency first aid station.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 5: Public Telephone -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <rect x="5" y="5" width="90" height="90" rx="8" fill="#0F2D59" stroke="#FFFFFF"
+                                stroke-width="3" />
+                            <path
+                                d="M30 30 C30 45, 55 70, 70 70 L75 60 L60 50 L55 55 C48 48, 48 48, 45 45 L50 40 L40 25 Z"
+                                fill="#FFFFFF" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Public Phone</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Telephone booth nearby.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sign 6: Eating Place -->
+                <div class="col">
+                    <div
+                        class="bg-white p-3 rounded shadow-sm text-center h-100 d-flex flex-column align-items-center justify-content-between">
+                        <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                            class="mb-3">
+                            <rect x="5" y="5" width="90" height="90" rx="8" fill="#0F2D59" stroke="#FFFFFF"
+                                stroke-width="3" />
+                            <path d="M35 25 V45 C35 50, 42 52, 42 60 V75 H46 V60 C46 52, 53 50, 53 45 V25 Z"
+                                fill="#FFFFFF" />
+                            <path d="M60 25 C52 35, 52 48, 60 58 V75 H64 V58 C72 48, 72 35, 64 25 Z" fill="#FFFFFF" />
+                        </svg>
+                        <div>
+                            <h6 class="fw-bold mb-1">Eating Place</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Restaurant or refreshments
+                                nearby.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Basic Driving Rules & Guidelines Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-secondary text-uppercase px-3 py-2 mb-2 fw-bold">SAFETY DIRECTIVE</span>
+                <h2 class="text-primary fw-bold">Basic Driving Rules & Guidelines</h2>
+                <p class="text-muted max-w-600 mx-auto">Standard guidelines taught at KSRTC Central Training Institute
+                    to promote disciplined and defensive driving practices.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1: Lane Discipline -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex gap-3">
+                                <div class="bg-primary-subtle text-primary rounded p-3 d-inline-flex align-self-start">
+                                    <i class="bi bi-signpost-split-fill fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-primary">1. Lane Discipline & Indication</h5>
+                                    <p class="text-muted small mb-0">Always maintain your vehicle in the designated
+                                        lane. Change lanes only after checking side-mirrors, indicating your intention
+                                        via turn signals at least 30 meters in advance, and ensuring it is safe to
+                                        proceed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Right of Way -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex gap-3">
+                                <div class="bg-primary-subtle text-primary rounded p-3 d-inline-flex align-self-start">
+                                    <i class="bi bi-arrow-up-right-circle-fill fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-primary">2. Right of Way Protocols</h5>
+                                    <p class="text-muted small mb-0">Yield to emergency vehicles (ambulances, fire
+                                        engines) immediately. At roundabouts, yield to vehicles approaching from your
+                                        right. Always yield to pedestrians at zebra crossings.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Safe Overtaking -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex gap-3">
+                                <div class="bg-primary-subtle text-primary rounded p-3 d-inline-flex align-self-start">
+                                    <i class="bi bi-chevron-double-right fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-primary">3. Overtaking Regulations</h5>
+                                    <p class="text-muted small mb-0">Overtake only from the right side of the vehicle
+                                        ahead. Never attempt to overtake on blind curves, narrow bridges, junctions, or
+                                        near school crossings where visibility is restricted.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Defensive Speed Limits -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex gap-3">
+                                <div class="bg-primary-subtle text-primary rounded p-3 d-inline-flex align-self-start">
+                                    <i class="bi bi-speedometer fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-primary">4. Speed Management</h5>
+                                    <p class="text-muted small mb-0">Observe speed signs strictly. Reduce speed on wet
+                                        roads, during heavy downpours, foggy conditions, and near school zones.
+                                        Defensive driving mandates adjusting speed according to traffic flow.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5: Safe Distance (2-Second Rule) -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex gap-3">
+                                <div class="bg-primary-subtle text-primary rounded p-3 d-inline-flex align-self-start">
+                                    <i class="bi bi-arrows-expand fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-primary">5. Safe Following Distance</h5>
+                                    <p class="text-muted small mb-0">Always maintain a safe stopping distance behind the
+                                        vehicle ahead. Implement the <strong>2-second rule</strong> in normal weather,
+                                        and double it to 4 seconds on wet roads or at night.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6: Zero Tolerance Offences -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex gap-3">
+                                <div class="bg-danger-subtle text-danger rounded p-3 d-inline-flex align-self-start">
+                                    <i class="bi bi-telephone-x-fill fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-danger">6. Zero Tolerance Violations</h5>
+                                    <p class="text-muted small mb-0">Driving under the influence of alcohol, using
+                                        mobile phones while driving (even hands-free), and jumping traffic lights are
+                                        heavy offenses carrying severe fines and license suspension.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Golden Rules Highlight Banner -->
+            <div class="mt-5 p-4 rounded text-white"
+                style="background: linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%); border-left: 5px solid #FFC107;">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h4 class="fw-bold mb-2"><i class="bi bi-shield-fill-exclamation me-2 text-accent"></i>CTI
+                            Driving Safety Pledge</h4>
+                        <p class="small mb-md-0 text-white-50">"Seatbelts in cars and ISI helmets on two-wheelers are
+                            mandatory. Protect your life and respect fellow commuters. Safety is not a choice, it is a
+                            duty."</p>
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="assets/ksrtc_logo.png" alt="KSRTC Logo" width="40" height="40">
+                        <h4 class="text-white mb-0 fs-5">KSRTC CTI</h4>
+                    </div>
+                    <p class="small text-white-50">Central Training Institute of Karnataka State Road Transport
+                        Corporation is the leading academy for driving and technical automobile instruction in South
+                        India.</p>
+                    <p class="small text-white-50 mb-0"><i class="bi bi-geo-alt-fill text-accent me-2"></i> Malur kolar
+                        district - 563130 </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rto.html">RTO Signs</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="student.html">Students</a></li>
+                        <li><a href="about.html">About CTI</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Official Portals</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://karnataka.gov.in" target="_blank">Karnataka Govt Portal</a></li>
+                        <li><a href="https://ksrtc.karnataka.gov.in" target="_blank">KSRTC Main Website</a></li>
+                        <li><a href="https://transport.karnataka.gov.in" target="_blank">Transport Department</a></li>
+                        <li><a href="https://sevasindhu.karnataka.gov.in" target="_blank">Seva Sindhu E-Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Inquiries & Helpline</h5>
+                    <p class="small text-white-50 mb-2">For general student verification or corporate check inquiries:
+                    </p>
+                    <h5 class="text-accent mb-1"><i class="bi bi-telephone-fill me-2"></i>080-22221314</h5>
+                    <p class="small text-white-50"><i class="bi bi-envelope-fill me-2"></i>cti-training@ksrtc.org</p>
+                    <div class="d-flex gap-2 mt-3">
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2026 KSRTC Central Training Institute, Bengaluru. Under Department of Transport,
+                    Government of Karnataka. All Rights Reserved.</p>
+                <p class="mb-0 mt-1 small text-white-50">Designed in alignment with <a href="https://karnataka.gov.in"
+                        target="_blank">karnataka.gov.in</a> standards.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'kn,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

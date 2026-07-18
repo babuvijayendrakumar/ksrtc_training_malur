@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | KSRTC Central Training Institute Malur- Government of Karnataka</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Government Bar -->
+    <div class="gov-top-bar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="bi bi-flag-fill text-accent me-1"></i> Government of Karnataka</span>
+                <span class="d-none d-md-inline border-start border-secondary-subtle ps-3">ಕರ್ನಾಟಕ ಸರ್ಕಾರ</span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <a href="https://karnataka.gov.in" target="_blank"><i class="bi bi-globe me-1"></i> State Portal</a>
+                <a href="https://ksrtc.karnataka.gov.in" target="_blank"><i class="bi bi-bus-front me-1"></i> KSRTC
+                    Portal</a>
+                <span class="d-none d-sm-inline">|</span>
+                <a href="javascript:void(0);" onclick="translatePage('en')"
+                    class="text-accent fw-bold text-decoration-none me-1">English</a>
+                <a href="javascript:void(0);" onclick="translatePage('kn')"
+                    class="text-white fw-bold text-decoration-none"
+                    style="font-family: 'Noto Sans Kannada', sans-serif;">ಕನ್ನಡ</a>
+                <div id="translate-desktop-container">
+                    <div id="google_translate_element"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="header-main">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <!-- Brand / Logo Area -->
+                <a class="logo-container" href="index.html">
+                    <!-- Government & KSRTC Combo SVG Logo -->
+                    <img src="assets/ksrtc_logo.png" alt="KSRTC Logo" width="55" height="55">
+                    <div class="logo-text">
+                        <span class="logo-title-en">KSRTC TRAINING MALUR</span>
+                        <span class="logo-title-kn">ಕೇಂದ್ರ ತರಬೇತಿ ಸಂಸ್ಥೆ </span>
+                        <span class="logo-subtitle">Central Training Institute • Govt of Karnataka</span>
+                    </div>
+                </a>
+
+                <!-- Responsive Navbar Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+                    <ul class="navbar-nav align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rto.html">RTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="student.html">Student</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Latest News / Notice Ticker -->
+    <div class="ticker-wrap">
+        <div class="ticker-title">
+            <i class="bi bi-megaphone-fill me-2"></i> LATEST ANNOUNCEMENTS
+        </div>
+        <div class="ticker-content">
+            <div class="ticker-item"><span class="badge bg-danger me-2">New</span> SCSP /TSP SWD
+                PMAJY-ಯೋಜನೆಯಡಿಯಲ್ಲಿ ಪರಿಶಿಷ್ಟ ಜಾತಿಯ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಉಚಿತ ಭಾರೀ ವಾಹನ ಚಾಲನಾ ತರಬೇತಿ ಪಡೆಯಲು ಮಾಹಿತಿ ಸಲ್ಲಿಕೆ : <a
+                    href="student.html">Verify Trainee Records</a></div>
+            <!-- <div class="ticker-item"><i class="bi bi-info-circle-fill text-primary me-2"></i> EV Maintenance Special
+                Batch starting at Hubli Regional Center from Aug 5, 2026.</div>
+            <div class="ticker-item"><i class="bi bi-trophy-fill text-warning me-2"></i> KSRTC CTI awarded "Best Public
+                Sector Driver Academy 2026".</div>
+            <div class="ticker-item"><span class="badge bg-danger me-2">New</span> Student Directory updated for
+                June/July 2026: <a href="student.html">Verify Trainee Records</a></div> -->
+        </div>
+    </div>
+
+    <!-- Hero Slider / Carousel Section -->
+    <section id="heroCarousel" class="carousel slide carousel-fade hero-slider" data-bs-ride="carousel"
+        data-bs-interval="6000">
+        <!-- Slide Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url('assets/hero_banner.png');">
+                <div class="container h-100">
+                    <!--  <div class="hero-caption">
+                        <span class="badge bg-danger px-3 py-2 mb-3 text-uppercase fw-bold letter-spacing-1">CTI
+                            BENGALURU</span>
+                        <h2>Shaping Professional & Safe Drivers</h2>
+                        <p class="lead">Providing state-of-the-art training facilities, simulated driving tracks, and
+                            advanced automobile mechanic labs under the Department of Transport, Government of
+                            Karnataka.</p>
+                        <div class="d-flex gap-3 flex-wrap">
+                            <a href="student.html" class="btn btn-secondary-custom btn-lg">Student Directory</a>
+                            <a href="about.html" class="btn btn-outline-light btn-lg border-2">Learn More</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url('assets/driving_simulator.png');">
+                <div class="container h-100">
+                    <!--   <div class="hero-caption">
+                        <span
+                            class="badge bg-warning text-dark px-3 py-2 mb-3 text-uppercase fw-bold letter-spacing-1">HIGH
+                            TECH SIMULATOR</span>
+                        <h2>Advanced Interactive Simulation Labs</h2>
+                        <p class="lead">Trainees learn under simulated complex scenarios, night-driving environments,
+                            and heavy rain setups to develop top-notch responsiveness and road safety sense.</p>
+                        <div class="d-flex gap-3 flex-wrap">
+                            <a href="student.html" class="btn btn-secondary-custom btn-lg">Verify Trainees</a>
+                            <a href="gallery.html" class="btn btn-outline-light btn-lg border-2">View Academy</a>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url('assets/mechanic_workshop.png');">
+                <div class="container h-100">
+                    <!--  <div class="hero-caption">
+                        <span class="badge bg-success px-3 py-2 mb-3 text-uppercase fw-bold letter-spacing-1">TECHNICAL
+                            EXCELLENCE</span>
+                        <h2>Electric Vehicle & Engine Mechanic Batches</h2>
+                        <p class="lead">Prepare for the future of transportation with hands-on labs covering electric
+                            vehicle drivetrain, heavy battery servicing, and standard diesel engine overhaul.</p>
+                        <div class="d-flex gap-3 flex-wrap">
+                            <a href="student.html" class="btn btn-secondary-custom btn-lg">Student List</a>
+                            <a href="contact.html" class="btn btn-outline-light btn-lg border-2">Enquire Now</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Navigation Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <!-- Key Statistics Banner Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="1000" data-suffix="+">0</div>
+                        <div class="stat-label">Drivers Trained</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="10" data-suffix="+">0</div>
+                        <div class="stat-label">Technical Batches</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="5" data-suffix="">0</div>
+                        <div class="stat-label">Years of Legacy</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="96" data-suffix="%">0</div>
+                        <div class="stat-label">Placement Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Training Programs Section -->
+    <section class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="section-header">
+                <h2>Our Core Training Divisions</h2>
+                <p>Developing essential professional skills for secure, efficient, and environment-friendly public
+                    transportation operations.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Program 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="program-card card">
+                        <div class="card-body">
+                            <div class="program-icon-wrapper">
+                                <i class="bi bi-bus-front"></i>
+                            </div>
+                            <h3 class="card-title">HMV Driving</h3>
+                            <p class="card-text text-muted">Advanced training for Heavy Motor Vehicles including city
+                                buses, long-route buses, and transport trucks with on-track tests.</p>
+                            <a href="student.html" class="text-secondary fw-bold text-decoration-none">View Trainees <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Program 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="program-card card">
+                        <div class="card-body">
+                            <div class="program-icon-wrapper">
+                                <i class="bi bi-lightning-charge"></i>
+                            </div>
+                            <h3 class="card-title">EV Maintenance</h3>
+                            <p class="card-text text-muted">Technical training on Electric Bus architecture, high
+                                voltage systems, lithium-ion battery management, and smart charging docks.</p>
+                            <a href="student.html" class="text-secondary fw-bold text-decoration-none">View Trainees <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Program 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="program-card card">
+                        <div class="card-body">
+                            <div class="program-icon-wrapper">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title">Conductor Soft Skills</h3>
+                            <p class="card-text text-muted">Public relations, digital ticketing via ETMs, emergency
+                                first-aid, stress management, and customer satisfaction practices.</p>
+                            <a href="student.html" class="text-secondary fw-bold text-decoration-none">View Trainees <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Program 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="program-card card">
+                        <div class="card-body">
+                            <div class="program-icon-wrapper">
+                                <i class="bi bi-wrench"></i>
+                            </div>
+                            <h3 class="card-title">Mechanic & Engine Lab</h3>
+                            <p class="card-text text-muted">Vocational vocational certificate course in Mechanic Motor
+                                Vehicle (MMV) trade, diesel engine repair, chassis alignment.</p>
+                            <a href="student.html" class="text-secondary fw-bold text-decoration-none">View Trainees <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message from the Managing Director / Director -->
+    <section class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-4 text-center">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400&h=400"
+                        alt="Director KSRTC Training" class="director-img mb-3">
+                    <h4 class="mb-1 text-primary">Mr. BASAVARAJU,M Sc</h4>
+                    <p class="text-muted small mb-0">Director of Training & Human Resources, KSRTC</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="director-section">
+                        <i class="bi bi-quote text-secondary" style="font-size: 3rem; line-height: 0.1;"></i>
+                        <h3 class="mb-3">Welcome to Central Training Institute</h3>
+                        <p class="lead">"Our focus is not just creating drivers or mechanics, but constructing a force
+                            of highly skilled, responsible professionals who ensure safety, efficiency, and exceptional
+                            service on public roads."</p>
+                        <p class="mb-4 text-muted">For over four decades, KSRTC Central Training Institute has acted as
+                            a lighthouse of professional human resource development for the transport sector. By
+                            integrating virtual simulator driving, modern mechanic lab practices, and EV diagnostics, we
+                            prepare our personnel to meet the standards of tomorrow's green logistics.</p>
+                        <a href="about.html" class="btn btn-primary">Read CTI's Journey</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expert Trainers Section -->
+    <section class="py-5 bg-white border-top border-bottom">
+        <div class="container py-4">
+            <div class="section-header">
+                <h2>Meet Our Expert Trainers</h2>
+                <p>Learn from certified industry veterans who bring decades of field experience and technical expertise
+                    to the classroom.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Trainer 1 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm text-center h-100 trainer-card">
+                        <div class="card-body p-4">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=300&h=300"
+                                alt="Sri. R. K. Patil"
+                                class="rounded-circle mb-3 img-fluid border border-3 border-light shadow-sm"
+                                style="width: 130px; height: 130px; object-fit: cover;">
+                            <h4 class="h5 mb-1 text-primary">Sri. </h4>
+                            <p class="text-secondary small mb-2 fw-semibold">Chief HMV Driving Instructor</p>
+                            <p class="text-muted small mb-0">Retired KSRTC Senior Depot Manager with 28+ years of road
+                                coaching expertise.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Trainer 2 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm text-center h-100 trainer-card">
+                        <div class="card-body p-4">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=300&h=300"
+                                alt="Smt. H. M. Sowmya"
+                                class="rounded-circle mb-3 img-fluid border border-3 border-light shadow-sm"
+                                style="width: 130px; height: 130px; object-fit: cover;">
+                            <h4 class="h5 mb-1 text-primary">Smt. </h4>
+                            <p class="text-secondary small mb-2 fw-semibold">EV Technology Specialist</p>
+                            <p class="text-muted small mb-0">M.Tech in Power Electronics. Expert in electric bus
+                                drivetrains and battery management systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Trainer 3 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm text-center h-100 trainer-card">
+                        <div class="card-body p-4">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=300&h=300"
+                                alt="Sri. Vinay Kumar"
+                                class="rounded-circle mb-3 img-fluid border border-3 border-light shadow-sm"
+                                style="width: 130px; height: 130px; object-fit: cover;">
+                            <h4 class="h5 mb-1 text-primary">Sri.</h4>
+                            <p class="text-secondary small mb-2 fw-semibold">Road Safety Coordinator</p>
+                            <p class="text-muted small mb-0">Former Assistant RTO Officer. Specializes in motor vehicle
+                                regulations and defensive driving principles.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Trainer 4 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm text-center h-100 trainer-card">
+                        <div class="card-body p-4">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=300&h=300"
+                                alt="Smt. Rekha Sharma"
+                                class="rounded-circle mb-3 img-fluid border border-3 border-light shadow-sm"
+                                style="width: 130px; height: 130px; object-fit: cover;">
+                            <h4 class="h5 mb-1 text-primary">Smt. </h4>
+                            <p class="text-secondary small mb-2 fw-semibold">Lead Engines Instructor</p>
+                            <p class="text-muted small mb-0">Senior Mech Engineer. Specializes in diesel engines,
+                                transmission systems, and computer diagnostics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Grid Section -->
+    <section class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="section-header">
+                <h2>Why CTI Karnataka Stands Out</h2>
+                <p>We are the benchmark training institute in Southern India, supporting national and state transport
+                    initiatives.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex gap-3">
+                        <div class="fs-1 text-secondary"><i class="bi bi-check-circle-fill"></i></div>
+                        <div>
+                            <h5>Government Certification</h5>
+                            <p class="text-muted">Courses are fully recognized by the Karnataka State Transport
+                                Department, paving the way for direct state public jobs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex gap-3">
+                        <div class="fs-1 text-secondary"><i class="bi bi-shield-check"></i></div>
+                        <div>
+                            <h5>Advanced Driving Tracks</h5>
+                            <p class="text-muted">Featuring hair-pin curves, hill-climb mocks, and automated reverse
+                                sensors monitoring driver accuracy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex gap-3">
+                        <div class="fs-1 text-secondary"><i class="bi bi-building"></i></div>
+                        <div>
+                            <h5>Residential Hostel Facilities</h5>
+                            <p class="text-muted">Well-equipped hostel accommodation for up to 300 trainees, with clean
+                                mess halls and sports areas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="assets/ksrtc_logo.png" alt="KSRTC Logo" width="40" height="40">
+                        <h4 class="text-white mb-0 fs-5">KSRTC CTI</h4>
+                    </div>
+                    <p class="small text-white-50">Central Training Institute of Karnataka State Road Transport
+                        Corporation is the leading academy for driving and technical automobile instruction in South
+                        India.</p>
+                    <p class="small text-white-50 mb-0"><i class="bi bi-geo-alt-fill text-accent me-2"></i> Malur kolar
+                        district - 563130</p>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rto.html">RTO Signs</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="student.html">Students</a></li>
+                        <li><a href="about.html">About CTI</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Official Portals</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://karnataka.gov.in" target="_blank">Karnataka Govt Portal</a></li>
+                        <li><a href="https://ksrtc.karnataka.gov.in" target="_blank">KSRTC Main Website</a></li>
+                        <li><a href="https://transport.karnataka.gov.in" target="_blank">Transport Department</a></li>
+                        <li><a href="https://sevasindhu.karnataka.gov.in" target="_blank">Seva Sindhu E-Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Inquiries & Helpline</h5>
+                    <p class="small text-white-50 mb-2">For general batch details, intake inquiries, or placement
+                        verification:</p>
+                    <h5 class="text-accent mb-1"><i class="bi bi-telephone-fill me-2"></i>080-22221314</h5>
+                    <p class="small text-white-50"><i class="bi bi-envelope-fill me-2"></i>cti-training@ksrtc.org</p>
+                    <div class="d-flex gap-2 mt-3">
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2026 KSRTC Central Training Institute, Bengaluru. Under Department of Transport,
+                    Government of Karnataka. All Rights Reserved.</p>
+                <p class="mb-0 mt-1 small text-white-50">Designed in alignment with <a href="https://karnataka.gov.in"
+                        target="_blank">karnataka.gov.in</a> standards.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'kn,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

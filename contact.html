@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | KSRTC Central Training Institute - Government of Karnataka</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Government Bar -->
+    <div class="gov-top-bar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="bi bi-flag-fill text-accent me-1"></i> Government of Karnataka</span>
+                <span class="d-none d-md-inline border-start border-secondary-subtle ps-3">ಕರ್ನಾಟಕ ಸರ್ಕಾರ</span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <a href="https://karnataka.gov.in" target="_blank"><i class="bi bi-globe me-1"></i> State Portal</a>
+                <a href="https://ksrtc.karnataka.gov.in" target="_blank"><i class="bi bi-bus-front me-1"></i> KSRTC
+                    Portal</a>
+                <span class="d-none d-sm-inline">|</span>
+                <a href="javascript:void(0);" onclick="translatePage('en')"
+                    class="text-accent fw-bold text-decoration-none me-1">English</a>
+                <a href="javascript:void(0);" onclick="translatePage('kn')"
+                    class="text-white fw-bold text-decoration-none"
+                    style="font-family: 'Noto Sans Kannada', sans-serif;">ಕನ್ನಡ</a>
+                <div id="translate-desktop-container">
+                    <div id="google_translate_element"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="header-main">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <a class="logo-container" href="index.html">
+                    <img src="assets/ksrtc_logo.png" alt="KSRTC Logo" width="55" height="55">
+                    <div class="logo-text">
+                        <span class="logo-title-en">KSRTC TRAINING</span>
+                        <span class="logo-title-kn">ಕೇಂದ್ರ ತರಬೇತಿ ಸಂಸ್ಥೆ</span>
+                        <span class="logo-subtitle">Central Training Institute • Govt of Karnataka</span>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+                    <ul class="navbar-nav align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rto.html">RTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="student.html">Student</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact Us</a>
+                        </li>
+                        <!-- Translate Section for Mobile -->
+                        <li class="nav-item d-lg-none mt-3 pt-3 border-top border-secondary-subtle">
+                            <div class="mobile-translate-box p-3 rounded shadow-sm text-center"
+                                style="background-color: rgba(15, 45, 89, 0.05); border: 1px solid rgba(15, 45, 89, 0.1);">
+                                <span class="small fw-bold text-primary d-block mb-2">
+                                    <i class="bi bi-translate me-1 text-danger"></i> SELECT LANGUAGE / ಭಾಷೆಯನ್ನು
+                                    ಆಯ್ಕೆಮಾಡಿ
+                                </span>
+                                <div class="d-flex justify-content-center gap-3">
+                                    <a href="javascript:void(0);" onclick="translatePage('en')"
+                                        class="btn btn-sm btn-outline-primary fw-bold">English</a>
+                                    <a href="javascript:void(0);" onclick="translatePage('kn')"
+                                        class="btn btn-sm btn-primary fw-bold"
+                                        style="font-family: 'Noto Sans Kannada', sans-serif;">ಕನ್ನಡ</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header Hero -->
+    <section class="py-5 text-white"
+        style="background: linear-gradient(135deg, #0F2D59 0%, #071933 100%); border-bottom: 4px solid #FFC107;">
+        <div class="container py-4 text-center">
+            <h1 class="text-white display-5 fw-bold mb-2">Contact CTI Division</h1>
+            <p class="lead text-white-50">Reach out to our offices in Bengaluru, Hubli, and Mandya. We are here to
+                assist you.</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-accent text-decoration-none">Home</a>
+                    </li>
+                    <li class="breadcrumb-item text-white-50 active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Contact details and Form -->
+    <section class="py-5 bg-white">
+        <div class="container py-3">
+            <div class="row g-5">
+
+                <!-- Left Details Column -->
+                <div class="col-lg-5">
+                    <h3 class="mb-4 text-primary">Get In Touch</h3>
+                    <p class="text-muted mb-4">Have questions regarding batch intake, hostel registration, fees, or
+                        direct corporate training sponsorships? Contact our administrative desks or visit us.</p>
+
+                    <div class="contact-info-card shadow-sm">
+                        <!-- Item 1 -->
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div class="contact-info-text">
+                                <h5>Central Training Institute (CTI)</h5>
+                                <p>Malur kolar
+                                    district - 563130 </p>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div class="contact-info-text">
+                                <h5>Telephone Helpline</h5>
+                                <p>080-22221314 / 080-22220191</p>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div class="contact-info-text">
+                                <h5>Email Communications</h5>
+                                <p>cti-training@ksrtc.org<br>hr-recruitment@ksrtc.org</p>
+                            </div>
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="contact-info-item mb-0">
+                            <div class="contact-info-icon"><i class="bi bi-clock-fill"></i></div>
+                            <div class="contact-info-text">
+                                <h5>Working Hours</h5>
+                                <p>Mon - Sat: 9:30 AM - 5:30 PM<br>Closed on Sundays & Government Holidays</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Form Column -->
+                <div class="col-lg-7">
+                    <div class="bg-light p-4 p-md-5 rounded shadow-sm">
+                        <h3 class="mb-4 text-primary"><i class="bi bi-envelope-paper-fill me-2"></i>Send an Inquiry</h3>
+
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="contactName" class="form-label">Full Name <span
+                                            class="text-danger">*</span></label>
+                                    <input type="text" id="contactName" class="form-control bg-white"
+                                        placeholder="Enter your name" required>
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contactPhone" class="form-label">Phone Number <span
+                                            class="text-danger">*</span></label>
+                                    <input type="tel" id="contactPhone" class="form-control bg-white"
+                                        placeholder="10-digit mobile" pattern="[6789][0-9]{9}" required>
+                                    <div class="invalid-feedback">Enter a valid 10-digit mobile number.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="contactEmail" class="form-label">Email Address <span
+                                            class="text-danger">*</span></label>
+                                    <input type="email" id="contactEmail" class="form-control bg-white"
+                                        placeholder="name@example.com" required>
+                                    <div class="invalid-feedback">Enter a valid email address.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="contactType" class="form-label">Subject of Inquiry <span
+                                            class="text-danger">*</span></label>
+                                    <select id="contactType" class="form-select bg-white" required>
+                                        <option value="" selected disabled>Select subject</option>
+                                        <option value="admission">Admission & Enrolment</option>
+                                        <option value="fees">Fees Structure & Payments</option>
+                                        <option value="hostel">Hostel Accommodation</option>
+                                        <option value="verification">Certificate Verification</option>
+                                        <option value="corporate">Corporate & Depot Sponsorship</option>
+                                    </select>
+                                    <div class="invalid-feedback">Please select a subject.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="contactMessage" class="form-label">Message Details <span
+                                            class="text-danger">*</span></label>
+                                    <textarea id="contactMessage" class="form-control bg-white" rows="4"
+                                        placeholder="Briefly describe your query..." required></textarea>
+                                    <div class="invalid-feedback">Please type your message details.</div>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-secondary-custom w-100 py-2 fs-5"><i
+                                            class="bi bi-send-fill me-2"></i>Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Embedded Google Map Mockup -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h4 class="mb-4 text-primary"><i class="bi bi-map-fill me-2"></i>Our Main Campus Location Map</h4>
+            <div class="card border-0 overflow-hidden shadow-sm position-relative" style="height: 380px;">
+                <!-- Vector Map Mockup with styled visual styles -->
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center p-4"
+                    style="background-color: #E5E3DF; background-image: radial-gradient(#d3d1cd 15%, transparent 16%), radial-gradient(#d3d1cd 15%, transparent 16%); background-size: 16px 16px;">
+                    <div class="bg-white p-4 rounded shadow-sm text-center"
+                        style="max-width: 420px; border-top: 5px solid #0F2D59;">
+                        <h5 class="text-primary fw-bold mb-2">KSRTC Central Training Institute</h5>
+                        <p class="small text-muted mb-3">Malur kolar
+                            district - 563130 </p>
+                        <a href="https://maps.google.com/?q=KSRTC+Central+Training+Institute+Shantinagar+Bangalore"
+                            target="_blank" class="btn btn-primary btn-sm px-3"><i
+                                class="bi bi-box-arrow-up-right me-2"></i>Open in Google Maps</a>
+                    </div>
+                    <div
+                        class="position-absolute bottom-0 end-0 m-3 bg-white px-2 py-1 text-muted small rounded shadow-sm border">
+                        Coordinates: 12.9554° N, 77.5959° E
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="assets/ksrtc_logo.png" alt="KSRTC Logo" width="40" height="40">
+                        <h4 class="text-white mb-0 fs-5">KSRTC CTI</h4>
+                    </div>
+                    <p class="small text-white-50">Central Training Institute of Karnataka State Road Transport
+                        Corporation is the leading academy for driving and technical automobile instruction in South
+                        India.</p>
+                    <p class="small text-white-50 mb-0"><i class="bi bi-geo-alt-fill text-accent me-2"></i> Malur kolar
+                        district - 563130 </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rto.html">RTO Signs</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="student.html">Students</a></li>
+                        <li><a href="about.html">About CTI</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Official Portals</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://karnataka.gov.in" target="_blank">Karnataka Govt Portal</a></li>
+                        <li><a href="https://ksrtc.karnataka.gov.in" target="_blank">KSRTC Main Website</a></li>
+                        <li><a href="https://transport.karnataka.gov.in" target="_blank">Transport Department</a></li>
+                        <li><a href="https://sevasindhu.karnataka.gov.in" target="_blank">Seva Sindhu E-Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Inquiries & Helpline</h5>
+                    <p class="small text-white-50 mb-2">For general batch details, intake inquiries, or placement
+                        verification:</p>
+                    <h5 class="text-accent mb-1"><i class="bi bi-telephone-fill me-2"></i>080-22221314</h5>
+                    <p class="small text-white-50"><i class="bi bi-envelope-fill me-2"></i>cti-training@ksrtc.org</p>
+                    <div class="d-flex gap-2 mt-3">
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2026 KSRTC Central Training Institute, Bengaluru. Under Department of Transport,
+                    Government of Karnataka. All Rights Reserved.</p>
+                <p class="mb-0 mt-1 small text-white-50">Designed in alignment with <a href="https://karnataka.gov.in"
+                        target="_blank">karnataka.gov.in</a> standards.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'kn,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
